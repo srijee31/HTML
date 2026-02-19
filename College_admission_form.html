@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Admission Form</title>
+</head>
+<body>
+    <header>
+    <h1>Ammity University Admission Form</h1>
+    </header>
+    <h2>Plz fill the following personal info:</h2>
+    <form>
+        <!--Just writing name-->
+        <label for="name">Name:</label><br>
+        
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <!--just writing date of birth-->
+        <label for="dob">Date of Birth:</label>
+       <input type="date" id="dob" name="dob">
+        <br><br>
+
+
+        <!--Gender selction code.  RADIO Func useage-->
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+
+        <!--Contact info code-->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+        <!--tel function use-->
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number"><br><br>
+        <label for="address">Address:</label><br>
+
+        <!--TexT AREA USE-->
+        <input type="text" id="address" name="address" placeholder="Enter your address"><br><br>
+
+        <!--Dropdwon using-->
+        <label for="course">Course:</label><br>
+        <select id="course" name="course">
+            <option value="null" selected disabled="">Select a course</option>
+            <option value="btech">B.Tech</option>
+            <option value="mtech">M.Tech</option>
+            <option value="mba">MBA</option>
+            <option value="phd">PhD</option>
+            <option value="bca">BCA</option>
+        </select><br><br>
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" placeholder="Enter any additional comments"></textarea><br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+     </form>
+
+</body>
+</html>
