@@ -1,0 +1,144 @@
+<!-- Daily Routine Tracker Webpage -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srijee’s Daily Growth Tracker</title>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Srijee’s Daily Growth Tracker</h1>
+        <p><em>“Don’t wait to feel motivated. Build the habit and let motivation catch up.”</em></p>
+        <hr>
+    </header>
+
+    <!-- Today's Routine Section -->
+    <section>
+        <h2>Today’s Routine</h2>
+        <ul>
+            <li>Wake up at 7:00 AM</li>
+            <li>Drink a glass of water</li>
+            <li>Read 5 pages</li>
+            <li>Note down expenses</li>
+            <li>Learn something new</li>
+            <li>Practice coding for at least 2 hours</li>
+            <li>Maintain the GitHub streak</li>
+        </ul>
+    </section>
+
+    <!-- Weekly Progress Section -->
+    <section>
+        <h2>Weekly Progress Table</h2>
+
+        <table border="2">
+            <tr>
+                <th>Day</th>
+                <th>Wake Up</th>
+                <th>Water</th>
+                <th>Reading</th>
+                <th>Expenses</th>
+                <th>Learning</th>
+                <th>Coding</th>
+                <th>GitHub</th>
+            </tr>
+
+            <tr>
+                <td>Monday</td>
+
+                <td>
+                    <select name="wake_monday">
+                        <option value="yes">✅</option>
+                        <option value="no">❌</option>
+                    </select>
+                </td>
+
+                <td>
+                    <select name="water_monday">
+                        <option value="yes">✅</option>
+                        <option value="no">❌</option>
+                    </select>
+                </td>
+
+                <td>
+                    <select name="reading_monday">
+                        <option value="yes">✅</option>
+                        <option value="no">❌</option>
+                    </select>
+                </td>
+
+                <td>
+                    <select name="expense_monday">
+                        <option value="yes">✅</option>
+                        <option value="no">❌</option>
+                    </select>
+                </td>
+
+                <td>
+                    <select name="learning_monday">
+                        <option value="yes">✅</option>
+                        <option value="no">❌</option>
+                    </select>
+                </td>
+
+                <td>
+                    <select name="coding_monday">
+                        <option value="yes">✅</option>
+                        <option value="no">❌</option>
+                    </select>
+                </td>
+
+                <td>
+                    <select name="github_monday">
+                        <option value="yes">✅</option>
+                        <option value="no">❌</option>
+                    </select>
+                </td>
+
+            </tr>
+
+        </table>
+    </section>
+
+    <br>
+
+    <!-- Image Section -->
+    <section>
+    <img src="motivation.jpg" alt="Motivational Image">
+    </section>
+
+    <!-- Reflection Form -->
+    <section>
+        <h2>Reflection</h2>
+        <p>
+            How did you feel about today’s routine?  
+            What went well? What could be improved?
+        </p>
+
+        <form>
+            <textarea name="reflection" rows="5" cols="50"
+                placeholder="Write your reflection here..."></textarea>
+            <br><br>
+            <button type="submit">Submit Reflection</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Srijeeth KS. All rights reserved.</p>
+        <p>
+            Contact:
+            <a href="mailto:srijeethkssrijeeth@gmail.com">
+                srijeethkssrijeeth@gmail.com
+            </a>
+        </p>
+    </footer>
+
+</body>
+</html>
